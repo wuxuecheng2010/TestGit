@@ -1,7 +1,7 @@
 package com.wxc.springboot.entity;
 
 public class User {
-
+//sdsada
     private String username;
 
     public String getUsername() {
