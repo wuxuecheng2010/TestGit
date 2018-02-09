@@ -65,7 +65,7 @@ public class BootController {
 
 
     @PostMapping("/getBookStore")
-    public BookStore getBookStore( @RequestParam("id") Integer id){
+    public BookStore getBookStore(@RequestParam("id") Integer id) {
 
         return bookStoreService.findBookStoreById(id);
 
@@ -73,12 +73,11 @@ public class BootController {
 
 
     @PostMapping("/save2BookStore")
-    public void save2BookStore(){
-
+    public void save2BookStore() {
+//demo test
         bookStoreService.saveBooStores();
 
     }
-
 
 
 }
