@@ -1,0 +1,10 @@
+server:
+   port: 8080
+   context-path: /springboot
+
+cupSize: B
+age: 100
+
+car:
+   name: Audi A5
+   price: 400000
